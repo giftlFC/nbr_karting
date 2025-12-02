@@ -62,7 +62,7 @@ export default function ContactPage() {
           </form>
           <div className="contact-info-box">
             <h4>Quick Response Times</h4>
-            <p>We typically respond to inquiries within 24 hours during business days.</p>
+            <p>We typically respond to inquiries within 24-72 hours during business days.</p>
             <h4 style={{marginTop: '1.5rem'}}>What We're Looking For</h4>
             <ul style={{paddingLeft: '1.5rem'}}>
               <li>Aspiring drivers ready to commit to development</li>
