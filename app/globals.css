@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap');
+
 /* Global styles for NBR Racing Team site */
 @import "tailwindcss";
 
@@ -30,6 +32,13 @@ body {
   -moz-osx-font-smoothing:grayscale;
 }
 
+.zen-dots-regular {
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 /* Utility accents */
 .accent-red { color: var(--accent-red); }
 .accent-blue { color: var(--accent-blue); }
@@ -49,6 +58,7 @@ body {
 /* Hero */
 .hero { position:relative; min-height:70vh; display:flex; align-items:center; }
 .hero video { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0; filter:brightness(.55) contrast(1.05); }
+.hero-image { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0; filter:brightness(.55) contrast(1.05); }
 .hero .hero-overlay { position:relative; z-index:10; padding:4rem 2rem; max-width:1300px; margin:0 auto; display:flex; gap:2rem; align-items:center; }
 .hero .hero-copy { max-width:700px; }
 .hero h1 { font-size:clamp(2rem,4.6vw,4rem); margin:0 0 .6rem; line-height:1.02; }

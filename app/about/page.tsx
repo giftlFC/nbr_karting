@@ -1,12 +1,24 @@
 import { FaTrophy, FaWrench, FaGlobe, FaUsers, FaChartLine, FaHeart } from 'react-icons/fa6';
+import Image from 'next/image';
 
 export default function AboutPage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="section section-hero">
-        <h1>About NBR Karting</h1>
-        <p className="lead">Developing Champions Since 2012</p>
+      <section className="hero">
+        <Image 
+          src="/image.png" 
+          alt="About NBR Karting" 
+          fill
+          className="hero-image"
+          priority
+        />
+        <div className="hero-overlay">
+          <div className="hero-copy">
+            <h1>About NBR Karting</h1>
+            <p className="lead">Developing Champions Since 2012</p>
+          </div>
+        </div>
       </section>
 
       {/* Neil Basilio Story */}

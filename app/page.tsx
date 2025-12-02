@@ -1,9 +1,19 @@
 import Hero from "./components/Hero";
 import { FaHandshake, FaArrowTrendUp, FaBullseye } from 'react-icons/fa6';
 
+import { Zen_Dots } from "next/font/google";
+
+const zenDots = Zen_Dots({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+});
+
 export default function Home() {
+
+
   return (
-    <div>
+    <div className={zenDots.className}>
       <Hero />
 
       {/* Introduction Section */}

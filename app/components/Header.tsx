@@ -1,31 +1,36 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Zen_Dots } from "next/font/google";
+
+const zenDots = Zen_Dots({ weight: "400", subsets: ["latin"] });
 
 export default function Header() {
+
+
   return (
-    <header className="site-header">
+    <header className={`site-header ${zenDots.className}`}>
       <div className="site-logo">
         <Image 
-          src="/logo/NBR logo 2.jpg" 
+          src="/logo/NBR Logo 2022.png" 
           alt="NBR Racing Logo" 
-          width={50} 
-          height={50}
+          width={300} 
+          height={200}
           style={{ objectFit: "contain" }}
         />
         <div>
-          <div style={{fontSize:14}}>NBR Racing</div>
-          <div style={{fontSize:12, opacity:.7}}>Team - Randburg</div>
+     
+         
         </div>
       </div>
 
-      <nav className="site-nav" aria-label="Main navigation">
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-        <Link href="/team-culture">Team Culture</Link>
-        <Link href="/race-system">Race System</Link>
-        <Link href="/driver-development">Driver Dev</Link>
-        <Link href="/membership">Membership</Link>
-        <Link href="/contact">Contact</Link>
+      <nav className={` ${zenDots.className}    w-full items-center justify-center gap-8 flex flex-row`} aria-label="Main navigation">
+        <Link className="text-2xl" href="/">Home</Link>
+        <Link className="text-2xl" href="/about">About</Link>
+        <Link className="text-2xl" href="/team-culture">Team Culture</Link>
+        <Link className="text-2xl" href="/race-system">Race System</Link>
+        <Link className="text-2xl" href="/driver-development">Driver Dev</Link>
+        <Link className="text-2xl" href="/membership">Membership</Link>
+        <Link className="text-2xl" href="/contact">Contact</Link>
       </nav>
     </header>
   );
