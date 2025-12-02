@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#0b0b0b" />
+  <rect x="60" y="180" width="1080" height="420" rx="12" fill="#111" />
+  <text x="80" y="260" fill="#fff" font-size="44">Pitlane — Behind the scenes</text>
+</svg>
