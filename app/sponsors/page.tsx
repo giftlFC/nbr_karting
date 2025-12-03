@@ -1,7 +1,24 @@
+import Image from 'next/image';
+import { Zen_Dots } from "next/font/google";
+
+const zenDots = Zen_Dots({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+});
+
 export default function SponsorsPage() {
   return (
-    <div className="section">
+    <div className={`section ${zenDots.className}`}>
       <h2>Sponsors & Partners</h2>
+      <div style={{marginBottom: '2rem', position: 'relative', width: '100%', height: '300px', borderRadius: '8px', overflow: 'hidden'}}>
+        <Image
+          src="/images/placeholder-sponsors.jpg"
+          alt="NBR Racing Partners and Sponsors"
+          fill
+          style={{objectFit: 'cover'}}
+        />
+      </div>
       <div className="card">
         <ul>
           <li><strong>Sparco South Africa</strong> - Professional racewear and safety equipment</li>

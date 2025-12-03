@@ -1,8 +1,16 @@
 import { FaCar, FaChartBar, FaBrain, FaHeadset, FaUser, FaSliders } from 'react-icons/fa6';
+import Image from 'next/image';
+import { Zen_Dots } from "next/font/google";
+
+const zenDots = Zen_Dots({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export default function DriverDevelopment() {
   return (
-    <div>
+    <div className={zenDots.className}>
       {/* Hero Section */}
       <section className="section section-hero">
         <h1>Driver Development</h1>
@@ -27,26 +35,74 @@ export default function DriverDevelopment() {
         <h2>Areas of Development</h2>
         <div className="development-grid">
           <div className="dev-card">
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
+              <Image
+                src="/images/placeholder-racecraft.jpg"
+                alt="Racecraft Training"
+                fill
+                style={{objectFit: 'cover'}}
+              />
+            </div>
             <h3><FaCar style={{marginRight: '0.5rem', display: 'inline'}} /> Racecraft</h3>
             <p>Mastering racing techniques, line selection, braking points, and competitive strategy through hands-on coaching.</p>
           </div>
           <div className="dev-card">
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
+              <Image
+                src="/images/placeholder-telemetry-dev.jpg"
+                alt="Telemetry and Data Analysis"
+                fill
+                style={{objectFit: 'cover'}}
+              />
+            </div>
             <h3><FaChartBar style={{marginRight: '0.5rem', display: 'inline'}} /> Telemetry & Data</h3>
             <p>Understanding performance data, analyzing telemetry, and making data-driven decisions for setup and improvement.</p>
           </div>
           <div className="dev-card">
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
+              <Image
+                src="/images/placeholder-mental-prep.jpg"
+                alt="Mental Preparation"
+                fill
+                style={{objectFit: 'cover'}}
+              />
+            </div>
             <h3><FaBrain style={{marginRight: '0.5rem', display: 'inline'}} /> Mental Preparation</h3>
             <p>Building championship mentality, managing pressure, and developing resilience for competitive success.</p>
           </div>
           <div className="dev-card">
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
+              <Image
+                src="/images/placeholder-communication.jpg"
+                alt="Communication Skills"
+                fill
+                style={{objectFit: 'cover'}}
+              />
+            </div>
             <h3><FaHeadset style={{marginRight: '0.5rem', display: 'inline'}} /> Communication</h3>
             <p>Effective communication with engineers, mechanics, and team members to optimize performance.</p>
           </div>
           <div className="dev-card">
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
+              <Image
+                src="/images/placeholder-personal-brand.jpg"
+                alt="Personal Branding"
+                fill
+                style={{objectFit: 'cover'}}
+              />
+            </div>
             <h3><FaUser style={{marginRight: '0.5rem', display: 'inline'}} /> Personal Branding</h3>
             <p>Professional presentation and personal branding to support career growth and sponsorship opportunities.</p>
           </div>
           <div className="dev-card">
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
+              <Image
+                src="/images/placeholder-technical-knowledge.jpg"
+                alt="Technical Knowledge"
+                fill
+                style={{objectFit: 'cover'}}
+              />
+            </div>
             <h3><FaSliders style={{marginRight: '0.5rem', display: 'inline'}} /> Technical Knowledge</h3>
             <p>Understanding kart setup, engine tuning, chassis adjustments, and technical aspects of competitive racing.</p>
           </div>

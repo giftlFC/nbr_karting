@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: "NBR Racing Team - karting, events, gallery, news and contact",
 };
 
-export const zenDots = Zen_Dots({
+const zenDots = Zen_Dots({
   weight: "400",
   subsets: ["latin"],
   display: "swap",

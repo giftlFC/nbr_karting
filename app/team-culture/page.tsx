@@ -1,8 +1,16 @@
 import { FaArrowRight } from 'react-icons/fa6';
+import Image from 'next/image';
+import { Zen_Dots } from "next/font/google";
+
+const zenDots = Zen_Dots({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export default function TeamCulture() {
   return (
-    <div>
+    <div className={zenDots.className}>
       {/* Hero Section */}
       <section className="section section-hero">
         <h1>Team Culture</h1>
@@ -51,18 +59,50 @@ export default function TeamCulture() {
         <h2>Our Team Environment</h2>
         <div className="environment-grid">
           <div className="env-card">
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
+              <Image
+                src="/images/placeholder-team-structure.jpg"
+                alt="Professional Structure"
+                fill
+                style={{objectFit: 'cover'}}
+              />
+            </div>
             <h3>Professional Structure</h3>
             <p>A simple yet professional race team system that has successfully won championships at all levels of competition locally.</p>
           </div>
           <div className="env-card">
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
+              <Image
+                src="/images/placeholder-family-spirit.jpg"
+                alt="Family Spirit"
+                fill
+                style={{objectFit: 'cover'}}
+              />
+            </div>
             <h3>Family Spirit</h3>
             <p>Every driver in the team is equally important and is an asset to the team. We foster a family spirit where success is shared.</p>
           </div>
           <div className="env-card">
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
+              <Image
+                src="/images/placeholder-mentorship.jpg"
+                alt="Mentorship"
+                fill
+                style={{objectFit: 'cover'}}
+              />
+            </div>
             <h3>Mentorship</h3>
             <p>Drivers build a concrete understanding of motorsport, telemetry, communication and personal brand presentation through dedicated coaching.</p>
           </div>
           <div className="env-card">
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
+              <Image
+                src="/images/placeholder-individual-focus.jpg"
+                alt="Individual Focus"
+                fill
+                style={{objectFit: 'cover'}}
+              />
+            </div>
             <h3>Individual Focus</h3>
             <p>We work closely with each driver to understand their own objectives and formulate a plan to achieve this together.</p>
           </div>

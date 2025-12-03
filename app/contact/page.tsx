@@ -1,8 +1,15 @@
 import { FaLocationDot, FaEnvelope, FaFlagCheckered } from 'react-icons/fa6';
+import { Zen_Dots } from "next/font/google";
+
+const zenDots = Zen_Dots({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export default function ContactPage() {
   return (
-    <div>
+    <div className={zenDots.className}>
       {/* Hero Section */}
       <section className="section section-hero">
         <h1>Contact NBR Karting</h1>

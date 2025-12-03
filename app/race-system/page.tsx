@@ -1,8 +1,16 @@
 import { FaCheck, FaMapPin, FaWrench, FaGear, FaFlag, FaToolbox, FaTruck } from 'react-icons/fa6';
+import Image from 'next/image';
+import { Zen_Dots } from "next/font/google";
+
+const zenDots = Zen_Dots({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export default function RaceSystem() {
   return (
-    <div>
+    <div className={zenDots.className}>
       {/* Hero Section */}
       <section className="section section-hero">
         <h1>Race Team System</h1>
@@ -49,26 +57,74 @@ export default function RaceSystem() {
         <h2>Our Infrastructure</h2>
         <div className="infrastructure-grid">
           <div className="infra-card">
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
+              <Image
+                src="/images/placeholder-zwartkops.jpg"
+                alt="Zwartkops Kart Circuit"
+                fill
+                style={{objectFit: 'cover'}}
+              />
+            </div>
             <h3><FaFlag style={{marginRight: '0.5rem', display: 'inline'}} /> Primary Base</h3>
             <p><strong>Zwartkops Kart Circuit</strong> - fully equipped facilities for storage, maintenance, and preparation.</p>
           </div>
           <div className="infra-card">
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
+              <Image
+                src="/images/placeholder-workshop.jpg"
+                alt="Workshop Support"
+                fill
+                style={{objectFit: 'cover'}}
+              />
+            </div>
             <h3><FaToolbox style={{marginRight: '0.5rem', display: 'inline'}} /> Workshop Support</h3>
             <p>State-of-the-art workshop for kart maintenance, service, and pre/post-race preparation.</p>
           </div>
           <div className="infra-card">
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
+              <Image
+                src="/images/placeholder-transportation.jpg"
+                alt="Transportation"
+                fill
+                style={{objectFit: 'cover'}}
+              />
+            </div>
             <h3><FaTruck style={{marginRight: '0.5rem', display: 'inline'}} /> Transportation</h3>
             <p>Dedicated transportation arrangements to all local racetracks and venues outside of Gauteng.</p>
           </div>
           <div className="infra-card">
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
+              <Image
+                src="/images/placeholder-engine-tuning.jpg"
+                alt="Engine Tuning"
+                fill
+                style={{objectFit: 'cover'}}
+              />
+            </div>
             <h3><FaGear style={{marginRight: '0.5rem', display: 'inline'}} /> Engine Tuning</h3>
             <p>Professional engine development and maintenance for Rotax and Rok categories through expert partnerships.</p>
           </div>
           <div className="infra-card">
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
+              <Image
+                src="/images/placeholder-telemetry.jpg"
+                alt="Telemetry Analysis"
+                fill
+                style={{objectFit: 'cover'}}
+              />
+            </div>
             <h3>📊 Telemetry</h3>
             <p>Data analysis and performance monitoring to identify areas for improvement and optimize setup.</p>
           </div>
           <div className="infra-card">
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
+              <Image
+                src="/images/placeholder-support-team.jpg"
+                alt="Support Team"
+                fill
+                style={{objectFit: 'cover'}}
+              />
+            </div>
             <h3>👥 Support Team</h3>
             <p>Full-time mechanics and support staff available during practice, qualifying, and race events.</p>
           </div>
