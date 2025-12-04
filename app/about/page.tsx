@@ -14,7 +14,7 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="hero">
         <Image 
-          src="/image.png" 
+          src="/images/Gemini_Generated_Image_b8nyswb8nyswb8ny.png" 
           alt="About NBR Karting" 
           fill
           className="hero-image"
