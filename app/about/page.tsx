@@ -32,7 +32,7 @@ export default function AboutPage() {
       <section className="section">
         <div className="about-grid">
           <div>
-            <div style={{marginBottom: '1.5rem', position: 'relative', width: '100%', height: '280px', borderRadius: '8px', overflow: 'hidden'}}>
+            <div style={{marginBottom: '1.5rem', position: 'relative', width: '100%', height: '200px', borderRadius: '8px', overflow: 'hidden'}}>
               <Image
                 src="/images/victory.jpeg"
                 alt="Neil Basilio, NBR Founder"
@@ -49,7 +49,7 @@ export default function AboutPage() {
             </p>
           </div>
           <div>
-            <div style={{marginBottom: '1.5rem', position: 'relative', width: '100%', height: '280px', borderRadius: '8px', overflow: 'hidden'}}>
+            <div style={{marginBottom: '1.5rem', position: 'relative', width: '100%', height: '200px', borderRadius: '8px', overflow: 'hidden'}}>
               <Image
                 src="/images/nbr_team.jpeg"
                 alt="NBR Karting Team Mission"
@@ -111,7 +111,7 @@ export default function AboutPage() {
         <h2>Why Choose NBR?</h2>
         <div className="features-grid">
           <div className="feature-card">
-            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '200px', borderRadius: '8px', overflow: 'hidden'}}>
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '150px', borderRadius: '8px', overflow: 'hidden'}}>
               <Image
                 src="/images/victory.jpeg"
                 alt="Championship Legacy"
@@ -123,7 +123,7 @@ export default function AboutPage() {
             <p>Successful track record of winning championships at all levels of local competition.</p>
           </div>
           <div className="feature-card">
-            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '200px', borderRadius: '8px', overflow: 'hidden'}}>
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '150px', borderRadius: '8px', overflow: 'hidden'}}>
               <Image
                 src="/images/kart_side.jpeg"
                 alt="Professional Infrastructure"
@@ -135,7 +135,7 @@ export default function AboutPage() {
             <p>Based at Zwartkops Kart Circuit with pit facilities at all major tracks across South Africa.</p>
           </div>
           <div className="feature-card">
-            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '200px', borderRadius: '8px', overflow: 'hidden'}}>
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '150px', borderRadius: '8px', overflow: 'hidden'}}>
               <Image
                 src="/images/nbr_cart.jpeg"
                 alt="Expert Support"
@@ -147,7 +147,7 @@ export default function AboutPage() {
             <p>Full-time team manager, mechanics, and coaching staff dedicated to driver success.</p>
           </div>
           <div className="feature-card">
-            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '200px', borderRadius: '8px', overflow: 'hidden'}}>
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '150px', borderRadius: '8px', overflow: 'hidden'}}>
               <Image
                 src="/images/cinematic.jpeg"
                 alt="Global Opportunities"
@@ -159,7 +159,7 @@ export default function AboutPage() {
             <p>Access to international racing opportunities through partnerships in Europe and USA.</p>
           </div>
           <div className="feature-card">
-            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '200px', borderRadius: '8px', overflow: 'hidden'}}>
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '150px', borderRadius: '8px', overflow: 'hidden'}}>
               <Image
                 src="/images/karts_lined.jpeg"
                 alt="Continuous Development"
@@ -171,7 +171,7 @@ export default function AboutPage() {
             <p>Ongoing testing, equipment analysis, and performance improvement programs.</p>
           </div>
           <div className="feature-card">
-            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '200px', borderRadius: '8px', overflow: 'hidden'}}>
+            <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '150px', borderRadius: '8px', overflow: 'hidden'}}>
               <Image
                 src="/images/nbr_team.jpeg"
                 alt="Family Environment"

@@ -63,15 +63,15 @@ export default function ContactPage() {
             </div>
             <div className="form-group">
               <label htmlFor="message">Message</label>
-              <textarea id="message" name="message" rows={6} required></textarea>
+              <textarea id="message" name="message" rows={4} required></textarea>
             </div>
-            <button type="submit" className="btn btn-primary">Send Message</button>
+            <button type="submit" className="btn btn-primary w-full">Send Message</button>
           </form>
           <div className="contact-info-box">
             <h4>Quick Response Times</h4>
-            <p>We typically respond to inquiries within 24-72 hours during business days.</p>
+            <p style={{fontSize:'0.95rem'}}>We typically respond to inquiries within 24-72 hours during business days.</p>
             <h4 style={{marginTop: '1.5rem'}}>What We're Looking For</h4>
-            <ul style={{paddingLeft: '1.5rem'}}>
+            <ul style={{paddingLeft: '1.5rem', fontSize:'0.95rem'}}>
               <li>Aspiring drivers ready to commit to development</li>
               <li>Racing enthusiasts interested in our programs</li>
               <li>Potential sponsors and partners</li>
