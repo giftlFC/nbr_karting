@@ -1,4 +1,5 @@
 import { FaCheck } from 'react-icons/fa6';
+import Image from 'next/image';
 import { Zen_Dots } from "next/font/google";
 
 const zenDots = Zen_Dots({
@@ -11,9 +12,20 @@ export default function Membership() {
   return (
     <div className={zenDots.className}>
       {/* Hero Section */}
-      <section className="section section-hero">
-        <h1>Team Membership</h1>
-        <p className="lead">Join NBR Karting and Elevate Your Racing</p>
+      <section className="hero">
+        <Image 
+          src="/images/karts_lined.jpeg" 
+          alt="Team Membership" 
+          fill
+          className="hero-image"
+          priority
+        />
+        <div className="hero-overlay">
+          <div className="hero-copy">
+            <h1>Team Membership</h1>
+            <p className="lead">Join NBR Karting and Elevate Your Racing</p>
+          </div>
+        </div>
       </section>
 
       {/* Membership Introduction */}

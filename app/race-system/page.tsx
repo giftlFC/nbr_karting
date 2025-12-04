@@ -12,9 +12,20 @@ export default function RaceSystem() {
   return (
     <div className={zenDots.className}>
       {/* Hero Section */}
-      <section className="section section-hero">
-        <h1>Race Team System</h1>
-        <p className="lead">Simplicity, Professionalism, and Results</p>
+      <section className="hero">
+        <Image 
+          src="/images/nbr_cart.jpeg" 
+          alt="Race Team System" 
+          fill
+          className="hero-image"
+          priority
+        />
+        <div className="hero-overlay">
+          <div className="hero-copy">
+            <h1>Race Team System</h1>
+            <p className="lead">Simplicity, Professionalism, and Results</p>
+          </div>
+        </div>
       </section>
 
       {/* Race Winning Method */}

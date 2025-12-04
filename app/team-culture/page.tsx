@@ -12,9 +12,20 @@ export default function TeamCulture() {
   return (
     <div className={zenDots.className}>
       {/* Hero Section */}
-      <section className="section section-hero">
-        <h1>Team Culture</h1>
-        <p className="lead">Built on Teamwork, Development, and Dedication</p>
+      <section className="hero">
+        <Image 
+          src="/images/nbr_team.jpeg" 
+          alt="Team Culture" 
+          fill
+          className="hero-image"
+          priority
+        />
+        <div className="hero-overlay">
+          <div className="hero-copy">
+            <h1>Team Culture</h1>
+            <p className="lead">Built on Teamwork, Development, and Dedication</p>
+          </div>
+        </div>
       </section>
 
       {/* Core Values */}

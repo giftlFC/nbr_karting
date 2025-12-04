@@ -80,6 +80,46 @@ body {
 .section-hero h1 { margin-bottom: 0.5rem; font-size: clamp(2rem, 5vw, 3.5rem); }
 .section-dark { background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.005)); border-top: 1px solid rgba(255,255,255,0.05); border-bottom: 1px solid rgba(255,255,255,0.05); }
 
+/* Alternating section backgrounds - first section white, alternating after */
+.section:nth-of-type(2) { background-color: #ffffff; color: #000000; }
+.section:nth-of-type(2) h2 { color: #000000; }
+.section:nth-of-type(2) h3 { color: #000000; }
+.section:nth-of-type(2) h4 { color: #000000; }
+.section:nth-of-type(2) p { color: #000000; }
+
+.section:nth-of-type(3) { background-color: #000000; color: var(--fg); }
+.section:nth-of-type(3) h2 { color: var(--fg); }
+.section:nth-of-type(3) h3 { color: var(--fg); }
+.section:nth-of-type(3) h4 { color: var(--fg); }
+
+.section:nth-of-type(4) { background-color: #ffffff; color: #000000; }
+.section:nth-of-type(4) h2 { color: #000000; }
+.section:nth-of-type(4) h3 { color: #000000; }
+.section:nth-of-type(4) h4 { color: #000000; }
+.section:nth-of-type(4) p { color: #000000; }
+
+.section:nth-of-type(5) { background-color: #000000; color: var(--fg); }
+.section:nth-of-type(5) h2 { color: var(--fg); }
+.section:nth-of-type(5) h3 { color: var(--fg); }
+.section:nth-of-type(5) h4 { color: var(--fg); }
+
+.section:nth-of-type(6) { background-color: #ffffff; color: #000000; }
+.section:nth-of-type(6) h2 { color: #000000; }
+.section:nth-of-type(6) h3 { color: #000000; }
+.section:nth-of-type(6) h4 { color: #000000; }
+.section:nth-of-type(6) p { color: #000000; }
+
+.section:nth-of-type(7) { background-color: #000000; color: var(--fg); }
+.section:nth-of-type(7) h2 { color: var(--fg); }
+.section:nth-of-type(7) h3 { color: var(--fg); }
+.section:nth-of-type(7) h4 { color: var(--fg); }
+
+.section:nth-of-type(8) { background-color: #ffffff; color: #000000; }
+.section:nth-of-type(8) h2 { color: #000000; }
+.section:nth-of-type(8) h3 { color: #000000; }
+.section:nth-of-type(8) h4 { color: #000000; }
+.section:nth-of-type(8) p { color: #000000; }
+
 .card { background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); padding:1rem; border-radius:10px; border:1px solid rgba(255,255,255,0.02); }
 
 /* Introduction */

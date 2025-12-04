@@ -12,9 +12,20 @@ export default function DriverDevelopment() {
   return (
     <div className={zenDots.className}>
       {/* Hero Section */}
-      <section className="section section-hero">
-        <h1>Driver Development</h1>
-        <p className="lead">Helping Drivers Become the Best</p>
+      <section className="hero">
+        <Image 
+          src="/images/kart_side.jpeg" 
+          alt="Driver Development" 
+          fill
+          className="hero-image"
+          priority
+        />
+        <div className="hero-overlay">
+          <div className="hero-copy">
+            <h1>Driver Development</h1>
+            <p className="lead">Helping Drivers Become the Best</p>
+          </div>
+        </div>
       </section>
 
       {/* Philosophy */}
