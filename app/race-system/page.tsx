@@ -59,7 +59,7 @@ export default function RaceSystem() {
           <div className="infra-card">
             <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
               <Image
-                src="/images/placeholder-zwartkops.jpg"
+                src="/images/Gemini_Generated_Image_uic4dhuic4dhuic4.png"
                 alt="Zwartkops Kart Circuit"
                 fill
                 style={{objectFit: 'cover'}}
@@ -71,7 +71,7 @@ export default function RaceSystem() {
           <div className="infra-card">
             <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
               <Image
-                src="/images/placeholder-workshop.jpg"
+                src="/images/Gemini_Generated_Image_pgjbuapgjbuapgjb.png"
                 alt="Workshop Support"
                 fill
                 style={{objectFit: 'cover'}}
@@ -83,7 +83,7 @@ export default function RaceSystem() {
           <div className="infra-card">
             <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
               <Image
-                src="/images/placeholder-transportation.jpg"
+                src="/images/Gemini_Generated_Image_57cgxs57cgxs57cg.png"
                 alt="Transportation"
                 fill
                 style={{objectFit: 'cover'}}
@@ -95,7 +95,7 @@ export default function RaceSystem() {
           <div className="infra-card">
             <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
               <Image
-                src="/images/placeholder-engine-tuning.jpg"
+                src="/images/Gemini_Generated_Image_90zxu790zxu790zx.png"
                 alt="Engine Tuning"
                 fill
                 style={{objectFit: 'cover'}}
@@ -107,7 +107,7 @@ export default function RaceSystem() {
           <div className="infra-card">
             <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
               <Image
-                src="/images/placeholder-telemetry.jpg"
+                src="/images/Gemini_Generated_Image_70yglp70yglp70yg.png"
                 alt="Telemetry Analysis"
                 fill
                 style={{objectFit: 'cover'}}
@@ -119,7 +119,7 @@ export default function RaceSystem() {
           <div className="infra-card">
             <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
               <Image
-                src="/images/placeholder-support-team.jpg"
+                src="/images/Gemini_Generated_Image_rq5alwrq5alwrq5a.png"
                 alt="Support Team"
                 fill
                 style={{objectFit: 'cover'}}

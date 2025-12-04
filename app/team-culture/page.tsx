@@ -61,7 +61,7 @@ export default function TeamCulture() {
           <div className="env-card">
             <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
               <Image
-                src="/images/placeholder-team-structure.jpg"
+                src="/images/Gemini_Generated_Image_rq5alwrq5alwrq5a.png"
                 alt="Professional Structure"
                 fill
                 style={{objectFit: 'cover'}}
@@ -73,7 +73,7 @@ export default function TeamCulture() {
           <div className="env-card">
             <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
               <Image
-                src="/images/placeholder-family-spirit.jpg"
+                src="/images/Gemini_Generated_Image_irf6v9irf6v9irf6.png"
                 alt="Family Spirit"
                 fill
                 style={{objectFit: 'cover'}}
@@ -85,7 +85,7 @@ export default function TeamCulture() {
           <div className="env-card">
             <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
               <Image
-                src="/images/placeholder-mentorship.jpg"
+                src="/images/Gemini_Generated_Image_ouack5ouack5ouac.png"
                 alt="Mentorship"
                 fill
                 style={{objectFit: 'cover'}}
@@ -97,7 +97,7 @@ export default function TeamCulture() {
           <div className="env-card">
             <div style={{marginBottom: '1rem', position: 'relative', width: '100%', height: '180px', borderRadius: '8px', overflow: 'hidden'}}>
               <Image
-                src="/images/placeholder-individual-focus.jpg"
+                src="/images/Gemini_Generated_Image_s3h3sis3h3sis3h3.png"
                 alt="Individual Focus"
                 fill
                 style={{objectFit: 'cover'}}
